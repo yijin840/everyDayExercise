@@ -1,6 +1,8 @@
 import day2.KmpDay2;
 import day3.KmpDay3;
 import day3.QuickSortDay3;
+import day4.KmpDay4;
+import day4.QuickSortDay4;
 
 /**
  * @author wys
@@ -10,9 +12,9 @@ public class Main {
     public static void main(String[] args) {
         String s1 = "abcaabcdefgabc";
         String s2 = "cde";
-        System.out.println(KmpDay3 .kmp(s1, s2));
+        System.out.println(KmpDay4.kmp(s1, s2));
         int arr[] = new int[]{5, 1, 3, 2, 4};
-        QuickSortDay3.quickSort(arr, 0, arr.length - 1);
+        QuickSortDay4.quickSort(arr, 0, arr.length - 1);
         printArr(arr);
 
     }
